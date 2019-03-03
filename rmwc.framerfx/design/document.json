@@ -97,8 +97,10 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Button.tsx_Button",
             "codeComponentProps" : {
+              "disabled" : false,
               "icon" : "favorite",
               "label" : "Button",
+              "theme" : "primaryBg onPrimary",
               "variant" : "raised"
             },
             "codeOverrideEnabled" : false,
@@ -157,8 +159,10 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Button.tsx_Button",
             "codeComponentProps" : {
+              "disabled" : true,
               "icon" : "share",
               "label" : "Button",
+              "theme" : "secondaryBg onSecondary",
               "variant" : "raised"
             },
             "codeOverrideEnabled" : false,
@@ -208,9 +212,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 359,
-            "centerAnchorX" : 0.49934895833333331,
-            "centerAnchorY" : 0.5517578125,
+            "bottom" : 374,
+            "centerAnchorX" : 0.51627604166666663,
+            "centerAnchorY" : 0.537109375,
             "children" : [
 
             ],
@@ -218,6 +222,7 @@
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
               "text" : "Hello world",
+              "theme" : "textPrimaryOnLight",
               "variant" : "headline1"
             },
             "codeOverrideEnabled" : false,
@@ -244,7 +249,7 @@
             "id" : "exqDq34aZ",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 107,
+            "left" : 120,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -257,7 +262,7 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 108,
+            "right" : 95,
             "rotation" : 0,
             "top" : null,
             "visible" : true,

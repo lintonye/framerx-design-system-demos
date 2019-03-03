@@ -4,15 +4,22 @@ import "@material/button/dist/mdc.button.css";
 import "@rmwc/icon/icon.css";
 import { Button as _Button, ButtonIcon } from "@rmwc/button";
 import FramerXWrapper from "./FramerXWrapper";
+import {
+  iconPropertyControls,
+  themePropertyControls
+} from "./framerx-integration";
 
 type Props = { label: string; icon: string; variant: string };
 
 export class Button extends React.Component<Props> {
   render() {
-    const { label, icon, variant } = this.props;
+    const { variant, ...rest } = this.props;
+    if (rest.disabled) {
+      delete rest.theme;
+    }
     return (
       <FramerXWrapper>
-        <_Button label={label} icon={icon} {...{ [variant]: true }} />
+        <_Button {...rest} {...{ [variant]: true }} />
       </FramerXWrapper>
     );
   }
@@ -23,11 +30,13 @@ export class Button extends React.Component<Props> {
 
   static propertyControls: PropertyControls<Props> = {
     label: { type: ControlType.String, title: "Label" },
-    icon: { type: ControlType.String, title: "Icon" },
+    disabled: { type: ControlType.Boolean, title: "Disabled" },
     variant: {
       type: ControlType.Enum,
       title: "variant",
       options: ["text", "raised", "outlined"]
-    }
+    },
+    ...iconPropertyControls(),
+    ...themePropertyControls("button")
   };
 }

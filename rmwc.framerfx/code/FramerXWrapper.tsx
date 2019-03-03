@@ -13,7 +13,7 @@ export default function FramerXWrapper({ children }) {
           rel="stylesheet"
         />
       </Helmet>
-      <ThemeProvider options={theme}>{children}</ThemeProvider>
+      <ThemeProvider options={theme.options}>{children}</ThemeProvider>
     </>
   );
 }

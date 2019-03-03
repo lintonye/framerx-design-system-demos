@@ -3,15 +3,18 @@ import { PropertyControls, ControlType } from "framer";
 import "@material/typography/dist/mdc.typography.css";
 import { Typography as _Typography, TypographyT } from "@rmwc/typography";
 import FramerXWrapper from "./FramerXWrapper";
+import { themePropertyControls } from "./framerx-integration";
 
 type Props = { text: string; variant: TypographyT };
 
 export class Typography extends React.Component<Props> {
   render() {
-    const { text, variant } = this.props;
+    const { text, variant, ...rest } = this.props;
     return (
       <FramerXWrapper>
-        <_Typography use={variant}>{text}</_Typography>
+        <_Typography use={variant} {...rest}>
+          {text}
+        </_Typography>
       </FramerXWrapper>
     );
   }
@@ -41,6 +44,7 @@ export class Typography extends React.Component<Props> {
         "button",
         "overline"
       ]
-    }
+    },
+    ...themePropertyControls("typography")
   };
 }
