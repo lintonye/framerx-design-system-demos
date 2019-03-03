@@ -104,6 +104,16 @@
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
 
+"@rmwc/base@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-5.1.8.tgz#b17e3189c278213ba2d69cd5fa4762963a845459"
+  dependencies:
+    "@rmwc/types" "^5.1.8"
+    classnames "^2.2.5"
+    focus-trap "^4.0.2"
+    hyperform "^0.9.9"
+    mutation-observer "^1.0.3"
+
 "@rmwc/button@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/button/-/button-5.1.4.tgz#5e434676d5d7f572ea0e9e6bae351b39ce639ebf"
@@ -155,6 +165,17 @@
 "@rmwc/types@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-5.1.4.tgz#c0300ace7188c36bbefe4a0e2c514c0f5c4c4c19"
+
+"@rmwc/types@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-5.1.8.tgz#f559c793054a9ee6168850a24d075b5fb18715a9"
+
+"@rmwc/typography@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/typography/-/typography-5.1.8.tgz#38465a19a08d4ff08457dfa515d847a6c7a68bd4"
+  dependencies:
+    "@material/typography" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
 
 "@types/prop-types@*":
   version "15.5.9"

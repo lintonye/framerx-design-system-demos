@@ -17,6 +17,7 @@
 		"@rmwc/button": "^5.1.4",
 		"@rmwc/icon": "^5.1.4",
 		"@rmwc/tabs": "^5.1.4",
-		"@rmwc/theme": "^5.1.4"
+		"@rmwc/theme": "^5.1.4",
+		"@rmwc/typography": "^5.1.8"
 	}
 }
