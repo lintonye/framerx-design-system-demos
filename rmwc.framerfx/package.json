@@ -1,0 +1,22 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "e1456f8f-f794-4183-a3a8-f7a7aa3ebc4b"
+	},
+	"author": "Linton Ye",
+	"dependencies": {
+		"@rmwc/button": "^5.1.4",
+		"@rmwc/icon": "^5.1.4",
+		"@rmwc/tabs": "^5.1.4",
+		"@rmwc/theme": "^5.1.4"
+	}
+}
