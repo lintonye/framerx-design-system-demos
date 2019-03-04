@@ -1,13 +1,12 @@
 import { PropertyControls, ControlType } from "framer";
 import theme from "./theme";
-import * as Canvas from "./canvas";
 import { iconNames, getIconElement } from "./icons";
 
 export const iconPropertyControls = (): PropertyControls => ({
   icon: {
     type: ControlType.Enum,
     title: "Icon",
-    options: ["< none >", "< BuiltIn >", ...iconNames]
+    options: ["< none >", "< Material >", ...iconNames]
   },
   builtInIcon: {
     type: ControlType.String,

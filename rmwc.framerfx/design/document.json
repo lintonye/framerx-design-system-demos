@@ -89,7 +89,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.42252604166666669,
+            "centerAnchorX" : 0.39127604166666669,
             "centerAnchorY" : 0.2978515625,
             "children" : [
 
@@ -99,7 +99,7 @@
             "codeComponentProps" : {
               "builtInIcon" : "favorite",
               "disabled" : false,
-              "icon" : "< none >",
+              "icon" : "< Material >",
               "label" : "Button",
               "theme" : "secondaryBg onSecondary",
               "variant" : "raised"
@@ -128,7 +128,7 @@
             "id" : "Ds1ttAUOD",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 269,
+            "left" : 245,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -349,7 +349,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "#CCC",
+                "fillColor" : "hsl(0, 23%, 4%)",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
@@ -446,7 +446,7 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 70,
+        "height" : 40,
         "heightType" : 0,
         "id" : "wdqocck8Y",
         "intrinsicHeight" : null,
@@ -477,7 +477,7 @@
         "rotation" : 0,
         "top" : -205,
         "visible" : true,
-        "width" : 78,
+        "width" : 42,
         "widthType" : 0
       }
     ],
