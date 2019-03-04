@@ -12,7 +12,8 @@ export function CardMedia(props) {
       {...rest}
       {...{ [size]: true }}
       style={{
-        backgroundImage: `url(${imageUrl})`
+        backgroundImage: `url(${imageUrl})`,
+        height: "100%"
       }}
     >
       {}
