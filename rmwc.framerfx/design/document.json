@@ -3154,7 +3154,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
             "codeComponentProps" : {
-              "builtInIcon" : "favorite",
+              "builtInIcon" : "favorite_outlined",
               "checked" : false,
               "disabled" : false,
               "icon" : "< Material >"
