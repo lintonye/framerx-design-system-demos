@@ -20,6 +20,7 @@
 		"@rmwc/tabs": "^5.1.4",
 		"@rmwc/theme": "^5.1.4",
 		"@rmwc/typography": "^5.1.8",
+		"framer": "^0.10.9",
 		"react-helmet": "^5.2.0"
 	}
 }
