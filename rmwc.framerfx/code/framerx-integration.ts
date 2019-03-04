@@ -48,3 +48,57 @@ export const themePropertyControls = (type): PropertyControls => {
     }
   };
 };
+
+export const spacingPropertyControls = (): PropertyControls => ({
+  p: {
+    type: ControlType.FusedNumber,
+    title: "Padding",
+    toggleKey: "isPaddingPerSide",
+    toggleTitles: ["All Sides", "Per Side"],
+    valueKeys: ["pt", "pl", "pr", "pb"],
+    valueLabels: ["T", "L", "R", "B"]
+  },
+  m: {
+    type: ControlType.FusedNumber,
+    title: "Margin",
+    toggleKey: "isMarginPerSide",
+    toggleTitles: ["All Sides", "Per Side"],
+    valueKeys: ["mt", "ml", "mr", "mb"],
+    valueLabels: ["T", "L", "R", "B"]
+  }
+});
+
+export function processSpacingProps(props) {
+  const {
+    isPaddingPerSide,
+    p,
+    pt,
+    pl,
+    pr,
+    pb,
+    isMarginPerSide,
+    m,
+    mt,
+    ml,
+    mr,
+    mb,
+    ...rest
+  } = props;
+  const v = (t, r, b, l) => [t, r, b, l].map(s => `${s || 0}rem`).join(" ");
+  const padding =
+    typeof isPaddingPerSide === "undefined"
+      ? undefined
+      : isPaddingPerSide
+      ? v(pt, pr, pb, pl)
+      : v(p, p, p, p);
+  const margin =
+    typeof isMarginPerSide === "undefined"
+      ? undefined
+      : isMarginPerSide
+      ? v(mt, mr, mb, ml)
+      : v(m, m, m, m);
+  const style = { padding, margin };
+  console.log(style);
+
+  return { style, ...rest };
+}

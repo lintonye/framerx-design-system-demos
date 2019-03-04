@@ -2117,6 +2117,17 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : true,
+              "isPaddingPerSide" : true,
+              "m" : 1,
+              "ml" : 0,
+              "mr" : 0,
+              "mt" : 2,
+              "p" : 0,
+              "pb" : 0,
+              "pl" : 1,
+              "pr" : 0,
+              "pt" : 4,
               "text" : "Our Changing Planet",
               "theme" : "textPrimaryOnBackground",
               "variant" : "headline6"
@@ -2177,6 +2188,9 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isPaddingPerSide" : true,
+              "pl" : 1,
+              "pt" : -1,
               "text" : "by Kurt Wagner",
               "theme" : "textSecondaryOnBackground",
               "variant" : "subtitle2"
@@ -2229,7 +2243,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 92,
-            "centerAnchorX" : 0.36486486486486486,
+            "centerAnchorX" : 0.43993993993993996,
             "centerAnchorY" : 0.55555555555555558,
             "children" : [
 
@@ -2237,6 +2251,10 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
+              "m" : 0,
+              "p" : 0,
               "text" : "Visit ten places on our planet that are undergoing the biggest changes         today.",
               "theme" : "textSecondaryOnBackground",
               "variant" : "body1"
@@ -2278,11 +2296,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 65,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 193,
+            "width" : 243,
             "widthType" : 0
           }
         ],
