@@ -15,21 +15,29 @@ import "@material/button/dist/mdc.button.css";
 import "@material/icon-button/dist/mdc.icon-button.css";
 import { cloneFrameless } from "./framerx-utils";
 
+const filterById = keyword => element => element.props.id.indexOf(keyword) > 0;
+
 export function Card(props) {
   const { primaryActions, actions, ...rest } = props;
   return (
     <_Card {...rest}>
-      {primaryActions.map((a, idx) => (
-        <CardPrimaryAction key={"primaryAction" + idx}>
-          {cloneFrameless(a)}
-        </CardPrimaryAction>
-      ))}
+      {primaryActions.map((a, idx) => {
+        const actionItems = cloneFrameless(a);
+        const medias = actionItems.filter(filterById("CardMedia"));
+        const otherItems = actionItems.filter(i => !filterById("CardMedia")(i));
+        return (
+          <CardPrimaryAction key={"primaryAction" + idx}>
+            {medias}
+            <div style={{ padding: "1rem" }}>{otherItems}</div>
+          </CardPrimaryAction>
+        );
+      })}
       {actions.map((a, idx) => {
         const actionItems = cloneFrameless(a);
-        const filter = keyword => element =>
-          element.props.id.indexOf(keyword) > 0;
-        const actionButtons = actionItems.filter(filter("CardActionButton"));
-        const actionIcons = actionItems.filter(filter("CardActionIcon"));
+        const actionButtons = actionItems.filter(
+          filterById("CardActionButton")
+        );
+        const actionIcons = actionItems.filter(filterById("CardActionIcon"));
         return (
           <CardActions key={"action" + idx}>
             {actionButtons.length > 0 && (
