@@ -72,6 +72,17 @@
     "@material/theme" "^0.43.0"
     "@material/typography" "^0.44.0"
 
+"@material/card@^0.44.0":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.44.1.tgz#e72efba79e716143d530c75ecf18216aaa3c7499"
+  dependencies:
+    "@material/elevation" "^0.44.1"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/ripple" "^0.44.1"
+    "@material/rtl" "^0.42.0"
+    "@material/shape" "^0.44.1"
+    "@material/theme" "^0.43.0"
+
 "@material/elevation@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.44.0.tgz#ca16a67188ce9810dc2fa3d7a39073e72df4b754"
@@ -79,9 +90,29 @@
     "@material/animation" "^0.41.0"
     "@material/theme" "^0.43.0"
 
+"@material/elevation@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.44.1.tgz#19efa293e195b00141711899e3c3fde6a3670454"
+  dependencies:
+    "@material/animation" "^0.41.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/theme" "^0.43.0"
+
 "@material/feature-targeting@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-0.44.0.tgz#52cc73f0c8a83159de0357aebe74f15f9856fb4c"
+
+"@material/feature-targeting@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-0.44.1.tgz#afafc80294e5efab94bee31a187273d43d34979a"
+
+"@material/icon-button@^0.44.0":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/icon-button/-/icon-button-0.44.1.tgz#28935c16edef62c0f77fcc1195707c55331a5d0f"
+  dependencies:
+    "@material/base" "^0.41.0"
+    "@material/ripple" "^0.44.1"
+    "@material/theme" "^0.43.0"
 
 "@material/ripple@^0.44.0":
   version "0.44.0"
@@ -92,6 +123,15 @@
     "@material/feature-targeting" "^0.44.0"
     "@material/theme" "^0.43.0"
 
+"@material/ripple@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.44.1.tgz#79cb2ddf1f998498d877d3e3c46b50fed6f13b01"
+  dependencies:
+    "@material/animation" "^0.41.0"
+    "@material/base" "^0.41.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/theme" "^0.43.0"
+
 "@material/rtl@^0.42.0":
   version "0.42.0"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.42.0.tgz#1836e78186c2d8b996f6fbf97adab203535335bc"
@@ -99,6 +139,12 @@
 "@material/shape@^0.43.0":
   version "0.43.0"
   resolved "https://registry.yarnpkg.com/@material/shape/-/shape-0.43.0.tgz#b877acfd8be8abc9ddcf6601eb60dd0588292415"
+
+"@material/shape@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/shape/-/shape-0.44.1.tgz#ff4d5d42b07c5781306677bffee43234b756ea8e"
+  dependencies:
+    "@material/feature-targeting" "^0.44.1"
 
 "@material/tab-bar@^0.44.0":
   version "0.44.0"
@@ -174,6 +220,35 @@
     "@rmwc/provider" "^5.1.4"
     "@rmwc/ripple" "^5.1.4"
 
+"@rmwc/button@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/button/-/button-5.1.8.tgz#a42cb930e314e1c91556597986f66bf33acb4ee7"
+  dependencies:
+    "@material/button" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
+    "@rmwc/icon" "^5.1.8"
+    "@rmwc/provider" "^5.1.8"
+    "@rmwc/ripple" "^5.1.8"
+
+"@rmwc/card@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/card/-/card-5.1.8.tgz#7a58147747cc2efb6a2a0d937c7bad4918d1f63f"
+  dependencies:
+    "@material/card" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
+    "@rmwc/button" "^5.1.8"
+    "@rmwc/icon-button" "^5.1.8"
+    "@rmwc/ripple" "^5.1.8"
+
+"@rmwc/icon-button@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon-button/-/icon-button-5.1.8.tgz#bfd00bfd763b29f67e014ea8df29c91054a56c28"
+  dependencies:
+    "@material/icon-button" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
+    "@rmwc/icon" "^5.1.8"
+    "@rmwc/ripple" "^5.1.8"
+
 "@rmwc/icon@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-5.1.4.tgz#c75d531b20dbebea1fb81c3d02c0d2ad1158d897"
@@ -206,6 +281,13 @@
   dependencies:
     "@material/ripple" "^0.44.0"
     "@rmwc/base" "^5.1.4"
+
+"@rmwc/ripple@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-5.1.8.tgz#3ad5271073e4b246399482d497210b27feb156f3"
+  dependencies:
+    "@material/ripple" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
 
 "@rmwc/tabs@^5.1.4":
   version "5.1.4"
@@ -318,10 +400,6 @@ focus-trap@^4.0.2:
   dependencies:
     tabbable "^3.1.2"
     xtend "^4.0.1"
-
-framer@^0.10.9:
-  version "0.10.9"
-  resolved "https://registry.yarnpkg.com/framer/-/framer-0.10.9.tgz#6bdf801303ef801a4345d701a3f6098d59231a2c"
 
 good-listener@^1.2.2:
   version "1.2.2"
