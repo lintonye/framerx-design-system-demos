@@ -21,7 +21,7 @@ export function Card(props) {
     <_Card {...rest}>
       {primaryActions.map((a, idx) => (
         <CardPrimaryAction key={"primaryAction" + idx}>
-          <div style={{ padding: "1rem" }}>{cloneFrameless(a)}</div>
+          {cloneFrameless(a)}
         </CardPrimaryAction>
       ))}
       {actions.map((a, idx) => {

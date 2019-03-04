@@ -280,9 +280,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 98,
-            "centerAnchorX" : 0.42708333333333331,
-            "centerAnchorY" : 0.75634765625,
+            "bottom" : 220,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.63720703125,
             "children" : [
 
             ],
@@ -294,6 +294,11 @@
                   "enabled" : true,
                   "type" : "componentinstance",
                   "value" : "ggJRqMb51"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "kqKeklwS9"
                 }
               ],
               "outlined" : false,
@@ -329,7 +334,7 @@
             "id" : "wUihWOfu7",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 161,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -346,7 +351,7 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 334,
+            "width" : 440,
             "widthType" : 0
           }
         ],
@@ -2044,6 +2049,65 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
+            "bottom" : 17,
+            "centerAnchorX" : 0.65465465465465467,
+            "centerAnchorY" : 0.67500000000000004,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardMedia.tsx_CardMedia",
+            "codeComponentProps" : {
+              "imageUrl" : "design\/assets\/svg-line-tracing-property-panel.gif",
+              "size" : "sixteenByNine"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "fMqwezC0g",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Rsaxw8p9o",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 15,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.49849849849849848,
             "centerAnchorY" : 0.20416666666666666,
@@ -2164,9 +2228,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 84,
+            "bottom" : 92,
             "centerAnchorX" : 0.36486486486486486,
-            "centerAnchorY" : 0.57777777777777772,
+            "centerAnchorY" : 0.55555555555555558,
             "children" : [
 
             ],
@@ -2590,14 +2654,14 @@
         "blendingEnabled" : 0,
         "blendingMode" : "normal",
         "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
+        "centerAnchorX" : 0.44339622641509435,
+        "centerAnchorY" : 0.76106194690265483,
         "children" : [
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.35579514824797842,
+            "centerAnchorX" : 0.45956873315363883,
             "centerAnchorY" : 0.44247787610619471,
             "children" : [
 
@@ -2646,193 +2710,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 67,
             "rotation" : 0,
             "top" : 66,
             "visible" : true,
-            "width" : 190,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : 45,
-            "centerAnchorX" : 0.35579514824797842,
-            "centerAnchorY" : 0.65044247787610621,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/CardActionButton.tsx_CardActionButton",
-            "codeComponentProps" : {
-              "builtInIcon" : "favorite",
-              "icon" : "< none >",
-              "label" : "Action"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 68,
-            "heightType" : 0,
-            "id" : "BuyyBarGo",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 37,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "kqKeklwS9",
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : null,
-            "rotation" : 0,
-            "top" : null,
-            "visible" : true,
-            "width" : 190,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.79110512129380051,
-            "centerAnchorY" : 0.44247787610619471,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
-            "codeComponentProps" : {
-              "builtInIcon" : "favorite",
-              "checked" : false,
-              "disabled" : false,
-              "icon" : "< Material >"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 54,
-            "heightType" : 0,
-            "id" : "dhIZOqg4x",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : null,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "kqKeklwS9",
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 44,
-            "rotation" : 0,
-            "top" : 73,
-            "visible" : true,
-            "width" : 67,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : 24,
-            "centerAnchorX" : 0.79110512129380051,
-            "centerAnchorY" : 0.77433628318584069,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
-            "codeComponentProps" : {
-              "builtInIcon" : "share",
-              "checked" : false,
-              "disabled" : false,
-              "icon" : "< Material >"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 54,
-            "heightType" : 0,
-            "id" : "KtmKOvQLc",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : null,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "kqKeklwS9",
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 44,
-            "rotation" : 0,
-            "top" : null,
-            "visible" : true,
-            "width" : 67,
+            "width" : 267,
             "widthType" : 0
           }
         ],
@@ -2865,7 +2747,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 2134,
+        "left" : 1274,
         "locked" : false,
         "name" : null,
         "navigationTarget" : null,
