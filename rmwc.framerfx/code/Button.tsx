@@ -6,14 +6,15 @@ import { Button as _Button, ButtonIcon } from "@rmwc/button";
 import FramerXWrapper from "./FramerXWrapper";
 import {
   iconPropertyControls,
-  themePropertyControls
+  themePropertyControls,
+  processIconProps
 } from "./framerx-integration";
 
 type Props = { label: string; icon: string; variant: string };
 
 export class Button extends React.Component<Props> {
   render() {
-    const { variant, ...rest } = this.props;
+    const { variant, ...rest } = processIconProps(this.props);
     if (rest.disabled) {
       delete rest.theme;
     }
