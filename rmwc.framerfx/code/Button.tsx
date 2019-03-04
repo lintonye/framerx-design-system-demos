@@ -37,7 +37,7 @@ export class Button extends React.Component<Props> {
       title: "variant",
       options: ["text", "raised", "outlined"]
     },
-    ...iconPropertyControls(),
-    ...themePropertyControls("button")
+    ...iconPropertyControls()
+    // ...themePropertyControls("button")
   };
 }
