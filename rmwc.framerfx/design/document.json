@@ -294,14 +294,8 @@
                   "enabled" : true,
                   "type" : "componentinstance",
                   "value" : "ggJRqMb51"
-                },
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "kqKeklwS9"
                 }
               ],
-              "outlined" : false,
               "primaryActions" : [
                 {
                   "enabled" : true,
@@ -2058,7 +2052,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/CardMedia.tsx_CardMedia",
             "codeComponentProps" : {
-              "imageUrl" : "design\/assets\/svg-line-tracing-property-panel.gif",
+              "imageUrl" : "design\/assets\/17.jpg",
               "size" : "sixteenByNine"
             },
             "codeOverrideEnabled" : false,
@@ -2229,7 +2223,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 92,
-            "centerAnchorX" : 0.36486486486486486,
+            "centerAnchorX" : 0.43993993993993996,
             "centerAnchorY" : 0.55555555555555558,
             "children" : [
 
@@ -2278,11 +2272,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 65,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 193,
+            "width" : 243,
             "widthType" : 0
           }
         ],
