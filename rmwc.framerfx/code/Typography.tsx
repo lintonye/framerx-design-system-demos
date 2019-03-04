@@ -9,7 +9,7 @@ import {
   processSpacingProps
 } from "./framerx-integration";
 
-type Props = { text: string; variant: TypographyT };
+type Props = { text: string; variant: TypographyT; tag: string };
 
 export class Typography extends React.Component<Props> {
   render() {
@@ -25,7 +25,8 @@ export class Typography extends React.Component<Props> {
 
   static defaultProps: Props = {
     variant: "body1",
-    text: "Hello world"
+    text: "Hello world",
+    tag: "div"
   };
 
   static propertyControls: PropertyControls<Props> = {
@@ -48,6 +49,11 @@ export class Typography extends React.Component<Props> {
         "button",
         "overline"
       ]
+    },
+    tag: {
+      type: ControlType.Enum,
+      title: "Tag",
+      options: ["div", "span", "h1", "h2", "h3", "h4", "h5"]
     },
     ...themePropertyControls("typography"),
     ...spacingPropertyControls()

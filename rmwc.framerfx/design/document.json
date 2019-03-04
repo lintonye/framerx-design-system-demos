@@ -229,6 +229,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "tag" : "div",
               "text" : "Hello world",
               "theme" : "primary",
               "variant" : "headline1"
@@ -1918,6 +1919,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "tag" : "div",
               "text" : "Our Changing Planet",
               "theme" : "textPrimaryOnBackground",
               "variant" : "headline6"
@@ -1978,6 +1980,9 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : true,
+              "mt" : 0,
+              "tag" : "div",
               "text" : "by Kurt Wagner",
               "theme" : "textSecondaryOnBackground",
               "variant" : "subtitle2"
@@ -2038,6 +2043,10 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : true,
+              "ml" : 0,
+              "mt" : 1,
+              "tag" : "div",
               "text" : "Visit ten places on our planet that are undergoing the biggest changes         today.",
               "theme" : "textSecondaryOnBackground",
               "variant" : "body1"
