@@ -4,11 +4,15 @@ const data = Data({ currentPage: 0 });
 
 export const Tabs: Override = () => ({
   onActivate(evt) {
-    data.currentPage = evt.detail.index;
+    const index = evt.detail.index;
+    if (data.currentPage !== index) data.currentPage = index;
   },
   activeTabIndex: data.currentPage
 });
 
 export const Page: Override = () => ({
-  currentPage: data.currentPage
+  currentPage: data.currentPage,
+  onChangePage(page) {
+    if (page !== data.currentPage) data.currentPage = page;
+  }
 });
