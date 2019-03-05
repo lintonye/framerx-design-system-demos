@@ -15,8 +15,10 @@
 	"author": "Linton Ye",
 	"dependencies": {
 		"@framer/lintonye.learnreactdesign-ds": "^1.3.0",
+		"@framer/steveruizok.framespy": "^1.2.0",
 		"@rmwc/button": "^5.1.4",
 		"@rmwc/card": "^5.1.8",
+		"@rmwc/dialog": "^5.1.8",
 		"@rmwc/icon": "^5.1.8",
 		"@rmwc/tabs": "^5.1.4",
 		"@rmwc/theme": "^5.1.4",

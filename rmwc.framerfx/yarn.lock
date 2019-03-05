@@ -52,6 +52,16 @@
     styled-components "^4.1.3"
     tinycolor2 "^1.4.1"
 
+"@framer/steveruizok.framespy@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.framer.com/@framer/steveruizok.framespy/-/@framer/steveruizok.framespy-1.2.0.tgz#880b725ad56c426a05f86702ffcaec39e67eae2a"
+  integrity sha1-iAtyWtVsQmoF+GcC/8rsOeZ+rio=
+  dependencies:
+    prism-react-renderer "^0.1.5"
+    prismjs "^1.15.0"
+    react-clipboard.js "^2.0.2"
+    react-element-to-jsx-string "^14.0.2"
+
 "@material/animation@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.41.0.tgz#315b45b32e1aeebee8a4cf555b8ad52076d09ddd"
@@ -82,6 +92,25 @@
     "@material/rtl" "^0.42.0"
     "@material/shape" "^0.44.1"
     "@material/theme" "^0.43.0"
+
+"@material/dialog@^0.44.0":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/dialog/-/dialog-0.44.1.tgz#2286ab17d1f3b902493c9733ba9d715d250bc812"
+  dependencies:
+    "@material/animation" "^0.41.0"
+    "@material/base" "^0.41.0"
+    "@material/dom" "^0.41.0"
+    "@material/elevation" "^0.44.1"
+    "@material/ripple" "^0.44.1"
+    "@material/rtl" "^0.42.0"
+    "@material/shape" "^0.44.1"
+    "@material/theme" "^0.43.0"
+    "@material/typography" "^0.44.1"
+    focus-trap "^4.0.2"
+
+"@material/dom@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.41.0.tgz#6756865f97bad4c91ee75e69d769d7cdc25398ae"
 
 "@material/elevation@^0.44.0":
   version "0.44.0"
@@ -190,6 +219,12 @@
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.44.0.tgz#cf61dce2ee89bfa084d86e1b0f270a585bf9dfaf"
 
+"@material/typography@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.44.1.tgz#a94f01172f9122180bc2ce0aa55658183a35590d"
+  dependencies:
+    "@material/feature-targeting" "^0.44.1"
+
 "@rmwc/base@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-5.1.4.tgz#f8c3a0f59633e59afec7413e5101dedd84c409c6"
@@ -239,6 +274,14 @@
     "@rmwc/button" "^5.1.8"
     "@rmwc/icon-button" "^5.1.8"
     "@rmwc/ripple" "^5.1.8"
+
+"@rmwc/dialog@^5.1.8":
+  version "5.1.8"
+  resolved "https://registry.yarnpkg.com/@rmwc/dialog/-/dialog-5.1.8.tgz#5788a4714579a72c21d7b5dabd0e7e115c2fd5f9"
+  dependencies:
+    "@material/dialog" "^0.44.0"
+    "@rmwc/base" "^5.1.8"
+    "@rmwc/button" "^5.1.8"
 
 "@rmwc/icon-button@^5.1.8":
   version "5.1.8"
@@ -401,6 +444,11 @@ focus-trap@^4.0.2:
     tabbable "^3.1.2"
     xtend "^4.0.1"
 
+get-own-enumerable-property-symbols@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-2.0.1.tgz#5c4ad87f2834c4b9b4e84549dc1e0650fb38c24b"
+  integrity sha512-TtY/sbOemiMKPRUDDanGCSgBYe7Mf0vbRsWnBZ+9yghpZ1MvcpSpuZFjHdEeY/LZjZy0vdLjS77L6HosisFiug==
+
 good-listener@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
@@ -414,6 +462,28 @@ has-flag@^3.0.0:
 hyperform@^0.9.9:
   version "0.9.22"
   resolved "https://registry.yarnpkg.com/hyperform/-/hyperform-0.9.22.tgz#6a69e61fae9345140ad7c5c6ff406d1ce96fa631"
+
+is-obj@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+  integrity sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+
+is-plain-object@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
+  dependencies:
+    isobject "^3.0.1"
+
+is-regexp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-regexp/-/is-regexp-1.0.0.tgz#fd2d883545c46bac5a633e7b9a09e87fa2cb5069"
+  integrity sha1-/S2INUXEa6xaYz57mgnof6LLUGk=
+
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
@@ -449,6 +519,13 @@ prism-react-renderer@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-0.1.6.tgz#c9216baa234fab1c234209fcdaf0cd23a01c50a9"
 
+prismjs@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
+  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
+  optionalDependencies:
+    clipboard "^2.0.0"
+
 prop-types@^15.5.0, prop-types@^15.5.4, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -457,12 +534,20 @@ prop-types@^15.5.0, prop-types@^15.5.4, prop-types@^15.6.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
-react-clipboard.js@^2.0.3:
+react-clipboard.js@^2.0.2, react-clipboard.js@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/react-clipboard.js/-/react-clipboard.js-2.0.3.tgz#98ff15e514bdce6d0b0435ac5677d9c9941d085b"
   dependencies:
     clipboard "^2.0.0"
     prop-types "^15.5.0"
+
+react-element-to-jsx-string@^14.0.2:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/react-element-to-jsx-string/-/react-element-to-jsx-string-14.0.2.tgz#586d248bb2416855aa6ac3881e18726832c146d2"
+  integrity sha512-eYcPUg3FJisgAb8q3sSdce8F/xMZD/iFEjMZYnkE3b7gPi5OamGr2Hst/1pE72mzn7//dfYPXb+UqPK2xdSGsg==
+  dependencies:
+    is-plain-object "2.0.4"
+    stringify-object "3.2.2"
 
 react-helmet@^5.2.0:
   version "5.2.0"
@@ -501,6 +586,15 @@ select@^1.1.2:
 shallowequal@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+
+stringify-object@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/stringify-object/-/stringify-object-3.2.2.tgz#9853052e5a88fb605a44cd27445aa257ad7ffbcd"
+  integrity sha512-O696NF21oLiDy8PhpWu8AEqoZHw++QW6mUv0UvKZe8gWSdSvMXkiLufK7OmnP27Dro4GU5kb9U7JIO0mBuCRQg==
+  dependencies:
+    get-own-enumerable-property-symbols "^2.0.1"
+    is-obj "^1.0.1"
+    is-regexp "^1.0.0"
 
 styled-components@^4.1.3:
   version "4.1.3"

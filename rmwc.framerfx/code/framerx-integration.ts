@@ -98,7 +98,6 @@ export function processSpacingProps(props) {
       ? v(mt, mr, mb, ml)
       : v(m, m, m, m);
   const style = { padding, margin };
-  console.log(style);
 
   return { style, ...rest };
 }
