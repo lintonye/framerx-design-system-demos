@@ -298,11 +298,7 @@
                 }
               ],
               "primaryActions" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "Rsaxw8p9o"
-                }
+
               ]
             },
             "codeOverrideEnabled" : false,
@@ -1425,8 +1421,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.34932533733133431,
+            "centerAnchorX" : 0.65333333333333332,
+            "centerAnchorY" : 0.49925037481259371,
             "children" : [
 
             ],
@@ -1447,7 +1443,7 @@
                   "value" : "ltgLf5e5B"
                 }
               ],
-              "title" : "Book hotel"
+              "title" : "Book this?"
             },
             "codeOverrideEnabled" : true,
             "codeOverrideFile" : ".\/App.ts",
@@ -1471,12 +1467,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 228,
+            "height" : 200,
             "heightType" : 0,
-            "id" : "FMH69SaVQ",
+            "id" : "bNF1zoQb5",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 0,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -1489,11 +1485,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 0,
+            "right" : 30,
             "rotation" : 0,
-            "top" : 119,
+            "top" : null,
             "visible" : true,
-            "width" : 375,
+            "width" : 200,
             "widthType" : 0
           }
         ],
@@ -2458,7 +2454,7 @@
                     {
                       "enabled" : true,
                       "type" : "componentinstance",
-                      "value" : "OBfQcRrP8"
+                      "value" : "GDhkfKNRe"
                     }
                   ],
                   "primaryActions" : [
@@ -2526,11 +2522,7 @@
                 "codeComponentIdentifier" : ".\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "actions" : [
-                    {
-                      "enabled" : true,
-                      "type" : "componentinstance",
-                      "value" : "OBfQcRrP8"
-                    }
+
                   ],
                   "primaryActions" : [
                     {
@@ -2597,11 +2589,7 @@
                 "codeComponentIdentifier" : ".\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "actions" : [
-                    {
-                      "enabled" : true,
-                      "type" : "componentinstance",
-                      "value" : "OBfQcRrP8"
-                    }
+
                   ],
                   "primaryActions" : [
                     {
@@ -5972,6 +5960,193 @@
         "top" : 295,
         "visible" : true,
         "width" : 299,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 1.2403973509933774,
+        "centerAnchorY" : 0.99738219895287961,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.2528473804100228,
+            "centerAnchorY" : 0.38056680161943318,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardActionButton.tsx_CardActionButton",
+            "codeComponentProps" : {
+              "label" : "book"
+            },
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_BookButton",
+            "codeOverrideName" : "BookButton",
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 74,
+            "heightType" : 0,
+            "id" : "C8BQwE3A5",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 64,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "GDhkfKNRe",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 57,
+            "visible" : true,
+            "width" : 94,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 0,
+            "centerAnchorX" : 0.74715261958997725,
+            "centerAnchorY" : 0.59514170040485825,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
+            "codeComponentProps" : {
+              "builtInIcon" : "share",
+              "checked" : false,
+              "disabled" : false,
+              "icon" : "< Material >"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "XHHGpo6mr",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "GDhkfKNRe",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 11,
+            "rotation" : 0,
+            "top" : 47,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 247,
+        "heightType" : 0,
+        "id" : "GDhkfKNRe",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 4286,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -541,
+        "visible" : true,
+        "width" : 439,
         "widthType" : 0
       }
     ],
