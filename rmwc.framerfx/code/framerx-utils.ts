@@ -1,9 +1,14 @@
 import * as React from "react";
+import { RenderTarget } from "framer";
 
 function isFrameyElement(element) {
   if (element.type) {
     const { name } = element.type;
-    return ["WithEventsHOC", "ComponentContainer", "Frame"].indexOf(name) >= 0;
+    return (
+      ["WithEventsHOC", "ComponentContainer", "withOverride", "Frame"].indexOf(
+        name
+      ) >= 0
+    );
   } else return false;
 }
 
@@ -16,14 +21,24 @@ function flatten(arr) {
   return flattened;
 }
 
-function cloneOne(element, parentSize?) {
+function getOverrideProps(element) {
+  let rendered = element.type(element.props);
+  const container = rendered.props.children();
+  const { children, ...containerProps } = container.props;
+  return containerProps;
+}
+
+function cloneOne(element, props?) {
   if (isFrameyElement(element)) {
-    let parentSize = undefined;
+    let props = undefined;
     if (element.type.name === "ComponentContainer") {
       const { width, height } = element.props;
-      parentSize = { width, height };
+      props = { parentSize: { width, height } };
     }
-    return cloneFrameless(element.props.children, parentSize);
+    if (element.type.name === "withOverride") {
+      props = getOverrideProps(element);
+    }
+    return cloneFrameless(element.props.children, props);
   } else {
     if (Array.isArray(element.props.children)) {
       const newChildren = flatten(
@@ -34,7 +49,7 @@ function cloneOne(element, parentSize?) {
       return [
         React.createElement(
           element.type,
-          { parentSize, ...element.props },
+          { ...props, ...element.props },
           newChildren
         )
       ];
@@ -42,14 +57,18 @@ function cloneOne(element, parentSize?) {
   }
 }
 
-export function cloneFrameless(children, parentSize?) {
+export function cloneFrameless(children, props?) {
   if (Array.isArray(children)) {
-    return flatten(children.map(c => cloneOne(c, parentSize)));
-  } else return cloneOne(children, parentSize);
+    return flatten(children.map(c => cloneOne(c, props)));
+  } else return cloneOne(children, props);
 }
 
 export function makeFrameRelative(children) {
   const makeRelative = e =>
     React.cloneElement(e, { style: { position: "relative" } });
   return React.Children.map(children, makeRelative);
+}
+
+export function isCanvas() {
+  return RenderTarget.current() === RenderTarget.canvas;
 }
