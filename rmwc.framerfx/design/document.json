@@ -1285,10 +1285,7 @@
               "paddingRight" : 0,
               "paddingTop" : 0
             },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.ts",
-            "codeOverrideIdentifier" : ".\/App.ts_Page",
-            "codeOverrideName" : "Page",
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "exportOptions" : [
 
@@ -1370,10 +1367,7 @@
                 }
               ]
             },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.ts",
-            "codeOverrideIdentifier" : ".\/App.ts_Tabs",
-            "codeOverrideName" : "Tabs",
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "exportOptions" : [
 
@@ -1415,81 +1409,6 @@
             "top" : 0,
             "visible" : true,
             "width" : 375,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.56799999999999995,
-            "centerAnchorY" : 0.36581709145427288,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/Dialog.tsx_Dialog",
-            "codeComponentProps" : {
-              "actions" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "Lcwq3rjx5"
-                }
-              ],
-              "content" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "ltgLf5e5B"
-                }
-              ],
-              "title" : "Really book it?"
-            },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.ts",
-            "codeOverrideIdentifier" : ".\/App.ts_Dialog",
-            "codeOverrideName" : "Dialog",
-            "constraintsLocked" : false,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 200,
-            "heightType" : 0,
-            "id" : "g_lOwFYC6",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : null,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "fm1BeyDUz",
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 62,
-            "rotation" : 0,
-            "top" : 144,
-            "visible" : true,
-            "width" : 200,
             "widthType" : 0
           }
         ],
@@ -5994,10 +5913,7 @@
             "codeComponentProps" : {
               "label" : "book"
             },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.ts",
-            "codeOverrideIdentifier" : ".\/App.ts_BookButton",
-            "codeOverrideName" : "BookButton",
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "exportOptions" : [
 
@@ -6741,70 +6657,6 @@
         "top" : -621,
         "visible" : true,
         "width" : 335,
-        "widthType" : 0
-      },
-      {
-        "__class" : "CodeComponentNode",
-        "aspectRatio" : null,
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "children" : [
-
-        ],
-        "clip" : true,
-        "codeComponentIdentifier" : "@framer\/lintonye.learnreactdesign-ds\/.\/ViewJSX.tsx_ViewJSX",
-        "codeComponentProps" : {
-          "target" : [
-            {
-              "enabled" : true,
-              "type" : "componentinstance",
-              "value" : "s_qZYMnHD"
-            }
-          ]
-        },
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
-        "fillImage" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "height" : 441,
-        "heightType" : 0,
-        "id" : "FQkhCW5pH",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "left" : 5566,
-        "locked" : false,
-        "name" : null,
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "mvSJDqIyc",
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "right" : null,
-        "rotation" : 0,
-        "top" : -802,
-        "visible" : true,
-        "width" : 357,
         "widthType" : 0
       }
     ],
