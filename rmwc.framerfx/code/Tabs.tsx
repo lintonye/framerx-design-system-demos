@@ -6,7 +6,7 @@ import "@material/tab-scroller/dist/mdc.tab-scroller.css";
 import "@material/tab-indicator/dist/mdc.tab-indicator.css";
 import { TabBar, Tab } from "@rmwc/tabs";
 import FramerXWrapper from "./FramerXWrapper";
-import { cloneFrameless } from "./framerx-utils";
+import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 
 type Props = {
   tabs: string[];

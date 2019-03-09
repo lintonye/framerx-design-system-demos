@@ -42,10 +42,10 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
 
-"@framer/lintonye.learnreactdesign-ds@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.framer.com/@framer/lintonye.learnreactdesign-ds/-/@framer/lintonye.learnreactdesign-ds-1.6.0.tgz#74996a8b1ac51571482398b59efce3967d239c87"
-  integrity sha512-J2F1DABL7F6vgLfzPrRUBqiJGPD1ddEqRmzxc98BAyDdN3g2mcq5IK4WbhE+Hg/xwFMftT1btP2lDB8i/N28LA==
+"@framer/lintonye.learnreactdesign-ds@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.framer.com/@framer/lintonye.learnreactdesign-ds/-/@framer/lintonye.learnreactdesign-ds-1.7.0.tgz#4cd35fa8b031c703de3ba8303e2b2078cc14b831"
+  integrity sha512-QKPrxGFXtPTR1hO+RxNjXvfy7/D/1bQXAzhhY/dQtapEn07ayy87LzUZEOVnPxpiFxyE7XYU6LG5dkAA33cuWQ==
   dependencies:
     prism-react-renderer "^0.1.5"
     react-clipboard.js "^2.0.3"

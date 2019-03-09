@@ -13,7 +13,7 @@ import {
 import "@material/card/dist/mdc.card.css";
 import "@material/button/dist/mdc.button.css";
 import "@material/icon-button/dist/mdc.icon-button.css";
-import { cloneFrameless } from "./framerx-utils";
+import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 import FramerXWrapper from "./FramerXWrapper";
 
 const filterById = keyword => element =>
