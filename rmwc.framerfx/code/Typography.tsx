@@ -59,3 +59,5 @@ export class Typography extends React.Component<Props> {
     ...spacingPropertyControls()
   };
 }
+
+_Typography.displayName = "Typography";

@@ -1243,94 +1243,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : null,
+            "bottom" : 13,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.089205397301349326,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/Tabs.tsx_Tabs",
-            "codeComponentProps" : {
-              "activeTabIndex" : 0,
-              "externalTabs" : [
-                {
-                  "enabled" : true,
-                  "type" : "componentinstance",
-                  "value" : "GVHxmMFJD"
-                }
-              ],
-              "tabs" : [
-                {
-                  "enabled" : true,
-                  "type" : "string",
-                  "value" : "Fruits"
-                },
-                {
-                  "enabled" : true,
-                  "type" : "string",
-                  "value" : "Drinks"
-                },
-                {
-                  "enabled" : true,
-                  "type" : "string",
-                  "value" : "Meats"
-                }
-              ]
-            },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.ts",
-            "codeOverrideIdentifier" : ".\/App.ts_Tabs",
-            "codeOverrideName" : "Tabs",
-            "constraintsLocked" : false,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 119,
-            "heightType" : 0,
-            "id" : "hGqfEgsQI",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "fm1BeyDUz",
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 0,
-            "rotation" : 0,
-            "top" : 0,
-            "visible" : true,
-            "width" : 375,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : 0,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.54422788605697148,
+            "centerAnchorY" : 0.52473763118440775,
             "children" : [
 
             ],
@@ -1394,7 +1309,7 @@
             "fillType" : "color",
             "height" : 608,
             "heightType" : 0,
-            "id" : "cXPuepaXS",
+            "id" : "Jd9jnLNHv",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
             "left" : 0,
@@ -1412,7 +1327,7 @@
             "radiusTopRight" : 0,
             "right" : 0,
             "rotation" : 0,
-            "top" : 59,
+            "top" : 46,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -1421,8 +1336,93 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.65333333333333332,
-            "centerAnchorY" : 0.49925037481259371,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.14242878560719641,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Tabs.tsx_Tabs",
+            "codeComponentProps" : {
+              "activeTabIndex" : 0,
+              "externalTabs" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "GVHxmMFJD"
+                }
+              ],
+              "tabs" : [
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Fruits"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Drinks"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Meats"
+                }
+              ]
+            },
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_Tabs",
+            "codeOverrideName" : "Tabs",
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 190,
+            "heightType" : 0,
+            "id" : "XvFR54eSf",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "fm1BeyDUz",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 0,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.56799999999999995,
+            "centerAnchorY" : 0.36581709145427288,
             "children" : [
 
             ],
@@ -1443,7 +1443,7 @@
                   "value" : "ltgLf5e5B"
                 }
               ],
-              "title" : "Book this?"
+              "title" : "Really book it?"
             },
             "codeOverrideEnabled" : true,
             "codeOverrideFile" : ".\/App.ts",
@@ -1469,7 +1469,7 @@
             "fillType" : "color",
             "height" : 200,
             "heightType" : 0,
-            "id" : "bNF1zoQb5",
+            "id" : "g_lOwFYC6",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
             "left" : null,
@@ -1485,9 +1485,9 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 30,
+            "right" : 62,
             "rotation" : 0,
-            "top" : null,
+            "top" : 144,
             "visible" : true,
             "width" : 200,
             "widthType" : 0
@@ -1569,7 +1569,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.43311258278145698,
+            "centerAnchorX" : 0.22119205298013245,
             "centerAnchorY" : 0.30366492146596857,
             "children" : [
 
@@ -1605,7 +1605,7 @@
             "id" : "XkgEgfaGF",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 227,
+            "left" : 67,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -1629,7 +1629,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.16821192052980133,
+            "centerAnchorX" : 0.47947019867549667,
             "centerAnchorY" : 0.30366492146596857,
             "children" : [
 
@@ -1665,7 +1665,7 @@
             "id" : "BT37vBWJM",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 27,
+            "left" : 262,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -2522,7 +2522,11 @@
                 "codeComponentIdentifier" : ".\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "actions" : [
-
+                    {
+                      "enabled" : true,
+                      "type" : "componentinstance",
+                      "value" : "GDhkfKNRe"
+                    }
                   ],
                   "primaryActions" : [
                     {
@@ -2589,7 +2593,11 @@
                 "codeComponentIdentifier" : ".\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "actions" : [
-
+                    {
+                      "enabled" : true,
+                      "type" : "componentinstance",
+                      "value" : "GDhkfKNRe"
+                    }
                   ],
                   "primaryActions" : [
                     {
@@ -5732,6 +5740,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/DialogButton.tsx_DialogButton",
             "codeComponentProps" : {
+              "icon" : "< none >",
               "label" : "OK"
             },
             "codeOverrideEnabled" : true,
@@ -5975,8 +5984,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.2528473804100228,
-            "centerAnchorY" : 0.38056680161943318,
+            "centerAnchorX" : 0.75854214123006836,
+            "centerAnchorY" : 0.4251012145748988,
             "children" : [
 
             ],
@@ -6012,7 +6021,7 @@
             "id" : "C8BQwE3A5",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 64,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -6025,9 +6034,9 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 59,
             "rotation" : 0,
-            "top" : 57,
+            "top" : 68,
             "visible" : true,
             "width" : 94,
             "widthType" : 0
@@ -6035,9 +6044,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 0,
-            "centerAnchorX" : 0.74715261958997725,
-            "centerAnchorY" : 0.59514170040485825,
+            "bottom" : 21,
+            "centerAnchorX" : 0.35763097949886102,
+            "centerAnchorY" : 0.51012145748987858,
             "children" : [
 
             ],
@@ -6073,7 +6082,7 @@
             "id" : "XHHGpo6mr",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : null,
+            "left" : 57,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -6086,9 +6095,9 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 11,
+            "right" : null,
             "rotation" : 0,
-            "top" : 47,
+            "top" : 26,
             "visible" : true,
             "width" : 200,
             "widthType" : 0
@@ -6147,6 +6156,655 @@
         "top" : -541,
         "visible" : true,
         "width" : 439,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Card.tsx_Card",
+        "codeComponentProps" : {
+          "actions" : [
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "Uzdhb22jY"
+            }
+          ],
+          "primaryActions" : [
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "nXwjWxza_"
+            }
+          ]
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 288,
+        "heightType" : 0,
+        "id" : "nqv4YYoLS",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 5569,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -2,
+        "visible" : true,
+        "width" : 341,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.18845500848896435,
+            "centerAnchorY" : 0.33430232558139533,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardMedia.tsx_CardMedia",
+            "codeComponentProps" : {
+              "imageUrl" : "design\/assets\/hotel2.jpg",
+              "size" : "sixteenByNine"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 115,
+            "heightType" : 0,
+            "id" : "SaoCOFovS",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 42,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "nXwjWxza_",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 138,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -50,
+            "centerAnchorX" : 0.52461799660441422,
+            "centerAnchorY" : 0.70930232558139539,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
+            "codeComponentProps" : {
+              "tag" : "div",
+              "text" : "Hello world",
+              "variant" : "headline5"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "emP_iyreU",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "nXwjWxza_",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 180,
+            "rotation" : 0,
+            "top" : 22,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -99,
+            "centerAnchorX" : 0.71477079796264853,
+            "centerAnchorY" : 0.9941860465116279,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
+            "codeComponentProps" : {
+              "tag" : "div",
+              "text" : "Hello world",
+              "variant" : "body1"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "zwPvJBVsK",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "nXwjWxza_",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 68,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 172,
+        "heightType" : 0,
+        "id" : "nXwjWxza_",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 5378,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -241,
+        "visible" : true,
+        "width" : 589,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -40,
+            "centerAnchorX" : 0.40000000000000002,
+            "centerAnchorY" : 0.6875,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardActionButton.tsx_CardActionButton",
+            "codeComponentProps" : {
+              "label" : "Action"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "fa8JarFxi",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 34,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Uzdhb22jY",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 32,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -71,
+            "centerAnchorX" : 0.76716417910447765,
+            "centerAnchorY" : 0.84895833333333337,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/CardActionIcon.tsx_CardActionIcon",
+            "codeComponentProps" : {
+              "builtInIcon" : "share",
+              "checked" : false,
+              "disabled" : false,
+              "icon" : "< Material >"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "N9ilvtiRC",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Uzdhb22jY",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : -22,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 192,
+        "heightType" : 0,
+        "id" : "Uzdhb22jY",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 6052,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -246,
+        "visible" : true,
+        "width" : 335,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0.98266666666666669,
+        "centerAnchorY" : 0.14039179104477612,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Card.tsx_Card",
+        "codeComponentProps" : {
+          "actions" : [
+            {
+              "enabled" : false,
+              "type" : "componentinstance",
+              "value" : "GDhkfKNRe"
+            },
+            {
+              "enabled" : false,
+              "type" : "componentinstance",
+              "value" : "GDhkfKNRe"
+            },
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "GDhkfKNRe"
+            }
+          ],
+          "primaryActions" : [
+            {
+              "enabled" : false,
+              "type" : "componentinstance",
+              "value" : "B52nJnOZw"
+            },
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "B52nJnOZw"
+            }
+          ]
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 335,
+        "heightType" : 0,
+        "id" : "s_qZYMnHD",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 4987,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -621,
+        "visible" : true,
+        "width" : 335,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : "@framer\/lintonye.learnreactdesign-ds\/.\/ViewJSX.tsx_ViewJSX",
+        "codeComponentProps" : {
+          "target" : [
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "s_qZYMnHD"
+            }
+          ]
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 441,
+        "heightType" : 0,
+        "id" : "FQkhCW5pH",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 5566,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "mvSJDqIyc",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -802,
+        "visible" : true,
+        "width" : 357,
         "widthType" : 0
       }
     ],

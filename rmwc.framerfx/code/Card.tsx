@@ -14,43 +14,52 @@ import "@material/card/dist/mdc.card.css";
 import "@material/button/dist/mdc.button.css";
 import "@material/icon-button/dist/mdc.icon-button.css";
 import { cloneFrameless } from "./framerx-utils";
+import FramerXWrapper from "./FramerXWrapper";
 
 const filterById = keyword => element =>
   element.props.id && element.props.id.indexOf(keyword) > 0;
 
+_Card.displayName = "Card";
+CardPrimaryAction.displayName = "CardPrimaryAction";
+CardActions.displayName = "CardActions";
+
 export function Card(props) {
   const { primaryActions, actions, ...rest } = props;
   return (
-    <_Card {...rest}>
-      {primaryActions.map((a, idx) => {
-        const actionItems = cloneFrameless(a);
-        const medias = actionItems.filter(filterById("CardMedia"));
-        const otherItems = actionItems.filter(i => !filterById("CardMedia")(i));
-        return (
-          <CardPrimaryAction key={"primaryAction" + idx}>
-            {medias}
-            <div style={{ padding: "1rem" }}>{otherItems}</div>
-          </CardPrimaryAction>
-        );
-      })}
-      {actions.map((a, idx) => {
-        const actionItems = cloneFrameless(a);
-        const actionButtons = actionItems.filter(
-          filterById("CardActionButton")
-        );
-        const actionIcons = actionItems.filter(filterById("CardActionIcon"));
-        return (
-          <CardActions key={"action" + idx}>
-            {actionButtons.length > 0 && (
-              <CardActionButtons>{actionButtons}</CardActionButtons>
-            )}
-            {actionIcons.length > 0 && (
-              <CardActionIcons>{actionIcons}</CardActionIcons>
-            )}
-          </CardActions>
-        );
-      })}
-    </_Card>
+    <FramerXWrapper>
+      <_Card {...rest}>
+        {primaryActions.map((a, idx) => {
+          const actionItems = cloneFrameless(a);
+          const medias = actionItems.filter(filterById("CardMedia"));
+          const otherItems = actionItems.filter(
+            i => !filterById("CardMedia")(i)
+          );
+          return (
+            <CardPrimaryAction key={"primaryAction" + idx}>
+              {medias}
+              <div style={{ padding: "1rem" }}>{otherItems}</div>
+            </CardPrimaryAction>
+          );
+        })}
+        {actions.map((a, idx) => {
+          const actionItems = cloneFrameless(a);
+          const actionButtons = actionItems.filter(
+            filterById("CardActionButton")
+          );
+          const actionIcons = actionItems.filter(filterById("CardActionIcon"));
+          return (
+            <CardActions key={"action" + idx}>
+              {actionButtons.length > 0 && (
+                <CardActionButtons>{actionButtons}</CardActionButtons>
+              )}
+              {actionIcons.length > 0 && (
+                <CardActionIcons>{actionIcons}</CardActionIcons>
+              )}
+            </CardActions>
+          );
+        })}
+      </_Card>
+    </FramerXWrapper>
   );
 }
 

@@ -5,11 +5,18 @@ import "@material/card/dist/mdc.card.css";
 import "@material/button/dist/mdc.button.css";
 import "@material/icon-button/dist/mdc.icon-button.css";
 import { iconPropertyControls, processIconProps } from "./framerx-integration";
+import FramerXWrapper from "./FramerXWrapper";
 
 export function CardActionButton(props) {
   const { label, ...rest } = processIconProps(props);
-  return <_CardActionButton {...rest}>{label}</_CardActionButton>;
+  return (
+    <FramerXWrapper>
+      <_CardActionButton {...rest}>{label}</_CardActionButton>
+    </FramerXWrapper>
+  );
 }
+
+_CardActionButton.displayName = "CardActionButton";
 
 const propertyControls: PropertyControls = {
   outlined: {

@@ -42,12 +42,14 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
 
-"@framer/lintonye.learnreactdesign-ds@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.framer.com/@framer/lintonye.learnreactdesign-ds/-/@framer/lintonye.learnreactdesign-ds-1.3.0.tgz#98ed2c2d9e4b2b3400b1230c2ea588dd5e571cf8"
+"@framer/lintonye.learnreactdesign-ds@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.framer.com/@framer/lintonye.learnreactdesign-ds/-/@framer/lintonye.learnreactdesign-ds-1.6.0.tgz#74996a8b1ac51571482398b59efce3967d239c87"
+  integrity sha512-J2F1DABL7F6vgLfzPrRUBqiJGPD1ddEqRmzxc98BAyDdN3g2mcq5IK4WbhE+Hg/xwFMftT1btP2lDB8i/N28LA==
   dependencies:
     prism-react-renderer "^0.1.5"
     react-clipboard.js "^2.0.3"
+    react-element-to-jsx-string "^14.0.2"
     rebass "^3.0.1"
     styled-components "^4.1.3"
     tinycolor2 "^1.4.1"
