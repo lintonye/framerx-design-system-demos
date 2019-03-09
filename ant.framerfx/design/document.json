@@ -14,8 +14,7 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/Button.tsx_Button",
         "codeComponentProps" : {
-          "label" : "Hello World!",
-          "type" : "primary"
+          "label" : "Hello World!"
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -36,12 +35,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 113,
+        "height" : 200,
         "heightType" : 0,
-        "id" : "FdKBgQjEF",
+        "id" : "UeVv3pnj8",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : 449,
+        "left" : 376,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -56,9 +55,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 168,
+        "top" : 85,
         "visible" : true,
-        "width" : 136,
+        "width" : 200,
         "widthType" : 0
       }
     ],

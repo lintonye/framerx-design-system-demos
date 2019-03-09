@@ -1,7 +1,8 @@
 import * as React from "react";
 import { PropertyControls, ControlType } from "framer";
 import { Button as _Button } from "antd";
-import "antd/dist/antd.css";
+import { FramerXWrapper } from "./FramerXWrapper";
+import "antd/dist/antd.less";
 
 // For the best editing experience in VSCode, install Prettier
 // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
@@ -19,7 +20,11 @@ export class Button extends React.Component<Props> {
   // https://reactjs.org/docs/introducing-jsx.html
   render() {
     const { label, ...rest } = this.props;
-    return <_Button {...rest}>{label}</_Button>;
+    return (
+      <FramerXWrapper>
+        <_Button {...rest}>{label}</_Button>
+      </FramerXWrapper>
+    );
   }
 
   // Set default values for props if there are none
