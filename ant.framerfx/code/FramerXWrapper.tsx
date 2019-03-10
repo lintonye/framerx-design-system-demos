@@ -2,6 +2,7 @@ import * as React from "react";
 // import "./styles.less";
 import Helmet from "react-helmet";
 import { url } from "framer/resource";
+import theme from "./theme";
 
 class FramerXWrapper extends React.Component {
   //// Below does NOT work!
@@ -28,7 +29,9 @@ class FramerXWrapper extends React.Component {
             src={url("node_modules/less/dist/less.js")}
             data-env="development"
           />
-          <script>{`setTimeout(()=>less.modifyVars({ "@primary-color": "orange" }), 500)`}</script>
+          <script>{`setTimeout(()=>less.modifyVars(${JSON.stringify(
+            theme
+          )}), 500)`}</script>
         </Helmet>
         {children}
       </>
