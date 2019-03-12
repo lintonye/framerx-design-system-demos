@@ -1,16 +1,16 @@
 import * as React from "react";
 import { PropertyControls, ControlType } from "framer";
-import { Button as _Button } from "antd";
+import { Calendar as _Calendar } from "antd";
 import { FramerXWrapper } from "./FramerXWrapper";
 
 type Props = { label: string; type: string };
 
-export class Button extends React.Component<Props> {
+export class Calendar extends React.Component<Props> {
   render() {
     const { label, ...rest } = this.props;
     return (
       <FramerXWrapper>
-        <_Button {...rest}>{label}</_Button>
+        <_Calendar {...rest}>{label}</_Calendar>
       </FramerXWrapper>
     );
   }
