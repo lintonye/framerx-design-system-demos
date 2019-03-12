@@ -9,7 +9,11 @@ import {
 import "@material/dialog/dist/mdc.dialog.css";
 import "@material/button/dist/mdc.button.css";
 import { iconPropertyControls, processIconProps } from "./framerx-integration";
-import { isCanvas, cloneFrameless, makeFrameRelative } from "./framerx-utils";
+import {
+  isCanvas,
+  cloneFrameless,
+  makeFrameRelative
+} from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
 
 export class Dialog extends React.Component {
   render() {
