@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "antd": "^3.15.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "scripts": {
+    "build": "webpack && cp dist/main.js ../bundle-consumer.framerfx/lib/main.js"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
