@@ -5,7 +5,7 @@
     "react-dom": "^16.8.4"
   },
   "scripts": {
-    "build": "webpack && cp dist/main.js ../bundle-consumer.framerfx/lib/main.js"
+    "build": "webpack && cp dist/main.js ./bundle-consumer.framerfx/lib/main.js"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
