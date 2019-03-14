@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rm -fr ./dist && rm -fr ./bundle-consumer.framerfx/lib && mkdir ./bundle-consumer.framerfx/lib",
     "build": "webpack",
-    "install": "yarn clean && yarn build && cp -f dist/*.* ./bundle-consumer.framerfx/lib/"
+    "deploy": "yarn build && cp -f dist/*.* ./bundle-consumer.framerfx/lib/"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
