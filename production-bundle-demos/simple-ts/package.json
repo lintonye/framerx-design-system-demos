@@ -1,0 +1,23 @@
+{
+  "dependencies": {},
+  "scripts": {
+    "clean": "rm -fr ./dist && rm -fr ./bundle-consumer.framerfx/lib && mkdir ./bundle-consumer.framerfx/lib",
+    "build": "webpack",
+    "deploy": "yarn build && cp -f dist/*.* ./bundle-consumer.framerfx/lib/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "16.6",
+    "react-dom": "16.6",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.6",
+    "react-dom": ">=16.6"
+  }
+}
