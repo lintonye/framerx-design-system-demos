@@ -1,5 +1,8 @@
 import { themed, colors } from "@atlaskit/theme";
 import { themeNamespace as button } from "@atlaskit/button";
+/* These are not supported yet, but it'd follow the same pattern if they are */
+// import { themeNamespace as tag } from "@atlaskit/tag";
+// import { themeNamespace as spinner } from "@atlaskit/spinner";
 
 export default {
   [button]: {
@@ -21,4 +24,10 @@ export default {
       }
     }
   }
+  // [tag]: {
+  //   ...
+  // }
+  // [spinner]: {
+  //   ...
+  // }
 };
