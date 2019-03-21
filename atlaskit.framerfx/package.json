@@ -1,0 +1,20 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "e4fa1009-7647-4e6e-96fc-6b6a8fed2934"
+	},
+	"author": "Linton Ye",
+	"dependencies": {
+		"@atlaskit/button": "^11.0.3",
+		"@atlaskit/theme": "^8.1.0"
+	}
+}
