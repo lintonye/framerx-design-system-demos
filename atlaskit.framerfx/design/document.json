@@ -35,7 +35,7 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 200,
+        "height" : 26,
         "heightType" : 0,
         "id" : "T4IHgcsPI",
         "intrinsicHeight" : null,
@@ -57,7 +57,7 @@
         "rotation" : 0,
         "top" : 111,
         "visible" : true,
-        "width" : 200,
+        "width" : 89,
         "widthType" : 0
       }
     ],

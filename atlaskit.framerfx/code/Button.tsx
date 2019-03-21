@@ -1,6 +1,7 @@
 import * as React from "react";
 import { PropertyControls, ControlType } from "framer";
 import _Button, { themeNamespace } from "@atlaskit/button";
+import FramerXWrapper from "./FramerXWrapper";
 
 // For the best editing experience in VSCode, install Prettier
 // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
@@ -17,13 +18,22 @@ export class Button extends React.Component<Props> {
   // Return the component contents in JSX
   // https://reactjs.org/docs/introducing-jsx.html
   render() {
-    return <_Button appearance="primary">{this.props.text}</_Button>;
+    const { text, ...props } = this.props;
+    return (
+      <FramerXWrapper themeNamespace={themeNamespace}>
+        <_Button {...props} appearance="primary">
+          {text}
+        </_Button>
+      </FramerXWrapper>
+    );
   }
 
   // Set default values for props if there are none
   // https://reactjs.org/docs/react-component.html#defaultprops
   static defaultProps: Props = {
-    text: "Hello World!"
+    text: "Hello World!",
+    width: 89,
+    height: 26
   };
 
   // Add Framer UI for this component (in the properties panel)
