@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "./bundle-consumer.framerfx/lib",
     "declaration": true,
     "jsx": "react"
   },

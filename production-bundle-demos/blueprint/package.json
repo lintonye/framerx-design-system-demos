@@ -3,9 +3,9 @@
     "@blueprintjs/core": "^3.14.1"
   },
   "scripts": {
-    "clean": "rm -fr ./dist && rm -fr ./bundle-consumer.framerfx/lib && mkdir ./bundle-consumer.framerfx/lib",
-    "build": "webpack",
-    "deploy": "yarn build && cp -f dist/*.* ./bundle-consumer.framerfx/lib/"
+    "framerx:clean": "rm -fr ./bundle-consumer.framerfx/lib && mkdir ./bundle-consumer.framerfx/lib",
+    "framerx:build": "webpack",
+    "framerx:watch": "webpack --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

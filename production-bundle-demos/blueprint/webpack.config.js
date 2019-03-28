@@ -5,7 +5,8 @@ module.exports = {
   output: {
     library: "import-antd",
     libraryTarget: "umd",
-    filename: "index.js"
+    filename: "index.js",
+    path: path.resolve(__dirname, "bundle-consumer.framerfx/lib")
   },
   externals: {
     // Don't bundle react or react-dom
