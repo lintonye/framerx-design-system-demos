@@ -26,6 +26,14 @@ CardActions.displayName = "CardActions";
 export function Card(props) {
   const { primaryActions, actions, ...rest } = props;
   return (
+
+    <Card>
+      <CardPrimaryAction>
+        <CardMedia />
+        ....
+      </CardPrimaryAction>
+    </Card>
+
     <FramerXWrapper>
       <_Card {...rest}>
         {primaryActions.map((a, idx) => {
