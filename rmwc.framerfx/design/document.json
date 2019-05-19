@@ -235,6 +235,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Hello world",
               "theme" : "primary",
@@ -1305,7 +1307,7 @@
               "defaultEffect" : "none",
               "direction" : "horizontal",
               "directionLock" : true,
-              "draggingEnabled" : true,
+              "dragEnabled" : true,
               "gap" : 10,
               "momentum" : false,
               "padding" : 0,
@@ -1315,7 +1317,10 @@
               "paddingRight" : 0,
               "paddingTop" : 0
             },
-            "codeOverrideEnabled" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_Page",
+            "codeOverrideName" : "Page",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
@@ -1399,7 +1404,10 @@
                 }
               ]
             },
-            "codeOverrideEnabled" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_Tabs",
+            "codeOverrideName" : "Tabs",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
@@ -1522,130 +1530,6 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.22119205298013245,
-            "centerAnchorY" : 0.30366492146596857,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/Tab.tsx_Tab",
-            "codeComponentProps" : {
-              "builtInIcon" : "hotel",
-              "icon" : "< Material >",
-              "label" : "Hotels"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 58,
-            "heightType" : 0,
-            "id" : "XkgEgfaGF",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 67,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "GVHxmMFJD",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 29,
-            "visible" : true,
-            "width" : 200,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0.47947019867549667,
-            "centerAnchorY" : 0.30366492146596857,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : ".\/Tab.tsx_Tab",
-            "codeComponentProps" : {
-              "builtInIcon" : "flight",
-              "icon" : "< Material >",
-              "label" : "Flights"
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 58,
-            "heightType" : 0,
-            "id" : "BT37vBWJM",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 262,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "GVHxmMFJD",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 29,
-            "visible" : true,
-            "width" : 200,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : null,
             "centerAnchorX" : 0.65695364238410592,
             "centerAnchorY" : 0.30366492146596857,
             "children" : [
@@ -1700,6 +1584,130 @@
             "right" : 159,
             "rotation" : 0,
             "top" : 29,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 59,
+            "centerAnchorX" : 0.31390728476821195,
+            "centerAnchorY" : 0.53926701570680624,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Tab.tsx_Tab",
+            "codeComponentProps" : {
+              "builtInIcon" : "hotel",
+              "icon" : "< Material >",
+              "label" : "Hotels"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 58,
+            "heightType" : 0,
+            "id" : "XkgEgfaGF",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 137,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "GVHxmMFJD",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.20927152317880796,
+            "centerAnchorY" : 0.18324607329842932,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Tab.tsx_Tab",
+            "codeComponentProps" : {
+              "builtInIcon" : "flight",
+              "icon" : "< Material >",
+              "label" : "Flights"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 58,
+            "heightType" : 0,
+            "id" : "BT37vBWJM",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 58,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "GVHxmMFJD",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 6,
             "visible" : true,
             "width" : 200,
             "widthType" : 0
@@ -1842,6 +1850,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Vancouver Home Inn",
               "variant" : "headline6"
@@ -1904,6 +1914,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "$190",
               "theme" : "textSecondaryOnBackground",
@@ -2093,6 +2105,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Accent Inns Burnaby",
               "variant" : "headline6"
@@ -2155,6 +2169,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "$190",
               "theme" : "textSecondaryOnBackground",
@@ -5856,6 +5872,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Do you really want to book this hotel?",
               "variant" : "body1"
@@ -5985,7 +6003,10 @@
             "codeComponentProps" : {
               "label" : "book"
             },
-            "codeOverrideEnabled" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_BookButton",
+            "codeOverrideName" : "BookButton",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
@@ -6232,6 +6253,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Hello world",
               "variant" : "headline5"
@@ -6294,6 +6317,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
             "codeComponentProps" : {
+              "isMarginPerSide" : false,
+              "isPaddingPerSide" : false,
               "tag" : "div",
               "text" : "Hello world",
               "variant" : "body1"
@@ -7260,6 +7285,8 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
                 "codeComponentProps" : {
+                  "isMarginPerSide" : false,
+                  "isPaddingPerSide" : false,
                   "tag" : "div",
                   "text" : "Work contract",
                   "theme" : "textSecondaryOnLight",
@@ -7323,6 +7350,8 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
                 "codeComponentProps" : {
+                  "isMarginPerSide" : false,
+                  "isPaddingPerSide" : false,
                   "tag" : "div",
                   "text" : "Elizabeth Park",
                   "variant" : "headline5"
@@ -7657,6 +7686,8 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
                 "codeComponentProps" : {
+                  "isMarginPerSide" : false,
+                  "isPaddingPerSide" : false,
                   "tag" : "div",
                   "text" : "Work contract",
                   "theme" : "textSecondaryOnLight",
@@ -7720,6 +7751,8 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Typography.tsx_Typography",
                 "codeComponentProps" : {
+                  "isMarginPerSide" : false,
+                  "isPaddingPerSide" : false,
                   "tag" : "div",
                   "text" : "Elizabeth Park",
                   "variant" : "headline5"
@@ -7888,7 +7921,10 @@
     "name" : null,
     "originalid" : null,
     "parentid" : null,
+    "tokens" : {
+
+    },
     "visible" : false
   },
-  "version" : 48
+  "version" : 49
 }
