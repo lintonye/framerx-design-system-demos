@@ -1452,6 +1452,83 @@
             "visible" : true,
             "width" : 375,
             "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 117,
+            "centerAnchorX" : 0.53866666666666663,
+            "centerAnchorY" : 0.67466266866566715,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Dialog.tsx_Dialog",
+            "codeComponentProps" : {
+              "actions" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "Lcwq3rjx5"
+                }
+              ],
+              "content" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "ltgLf5e5B"
+                }
+              ],
+              "title" : "Confirm"
+            },
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.ts",
+            "codeOverrideIdentifier" : ".\/App.ts_Dialog",
+            "codeOverrideName" : "Dialog",
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "oX1sVOCWc",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "fm1BeyDUz",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 73,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
           }
         ],
         "clip" : true,
