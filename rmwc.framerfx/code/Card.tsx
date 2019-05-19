@@ -1,5 +1,5 @@
-import * as React from "react";
-import { PropertyControls, ControlType } from "framer";
+import * as React from "react"
+import { PropertyControls, ControlType } from "framer"
 import {
   Card as _Card,
   CardPrimaryAction,
@@ -9,52 +9,44 @@ import {
   CardActions,
   CardActionButtons,
   CardActionIcons
-} from "@rmwc/card";
-import "@material/card/dist/mdc.card.css";
-import "@material/button/dist/mdc.button.css";
-import "@material/icon-button/dist/mdc.icon-button.css";
-import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils";
-import FramerXWrapper from "./FramerXWrapper";
+} from "@rmwc/card"
+import "@material/card/dist/mdc.card.css"
+import "@material/button/dist/mdc.button.css"
+import "@material/icon-button/dist/mdc.icon-button.css"
+import { cloneFrameless } from "@framer/lintonye.learnreactdesign-ds/code/tools/framerx-utils"
+import FramerXWrapper from "./FramerXWrapper"
 
 const filterById = keyword => element =>
-  element.props.id && element.props.id.indexOf(keyword) > 0;
+  element.props.id && element.props.id.indexOf(keyword) > 0
 
-_Card.displayName = "Card";
-CardPrimaryAction.displayName = "CardPrimaryAction";
-CardActions.displayName = "CardActions";
+_Card.displayName = "Card"
+CardPrimaryAction.displayName = "CardPrimaryAction"
+CardActions.displayName = "CardActions"
 
 export function Card(props) {
-  const { primaryActions, actions, ...rest } = props;
+  const { primaryActions, actions, ...rest } = props
   return (
-
-    <Card>
-      <CardPrimaryAction>
-        <CardMedia />
-        ....
-      </CardPrimaryAction>
-    </Card>
-
     <FramerXWrapper>
       <_Card {...rest}>
         {primaryActions.map((a, idx) => {
-          const actionItems = cloneFrameless(a);
-          const medias = actionItems.filter(filterById("CardMedia"));
+          const actionItems = cloneFrameless(a)
+          const medias = actionItems.filter(filterById("CardMedia"))
           const otherItems = actionItems.filter(
             i => !filterById("CardMedia")(i)
-          );
+          )
           return (
             <CardPrimaryAction key={"primaryAction" + idx}>
               {medias}
               <div style={{ padding: "1rem" }}>{otherItems}</div>
             </CardPrimaryAction>
-          );
+          )
         })}
         {actions.map((a, idx) => {
-          const actionItems = cloneFrameless(a);
+          const actionItems = cloneFrameless(a)
           const actionButtons = actionItems.filter(
             filterById("CardActionButton")
-          );
-          const actionIcons = actionItems.filter(filterById("CardActionIcon"));
+          )
+          const actionIcons = actionItems.filter(filterById("CardActionIcon"))
           return (
             <CardActions key={"action" + idx}>
               {actionButtons.length > 0 && (
@@ -64,11 +56,11 @@ export function Card(props) {
                 <CardActionIcons>{actionIcons}</CardActionIcons>
               )}
             </CardActions>
-          );
+          )
         })}
       </_Card>
     </FramerXWrapper>
-  );
+  )
 }
 
 const propertyControls: PropertyControls = {
@@ -90,6 +82,6 @@ const propertyControls: PropertyControls = {
       type: ControlType.ComponentInstance
     }
   }
-};
+}
 
-Card.propertyControls = propertyControls;
+Card.propertyControls = propertyControls
