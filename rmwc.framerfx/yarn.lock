@@ -445,6 +445,13 @@ focus-trap@^4.0.2:
     tabbable "^3.1.2"
     xtend "^4.0.1"
 
+"framer@^0.10 || ^1":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.6.tgz#c9d3f4e368f2e73777e5c12824305df327e3043b"
+  integrity sha512-b7R8JS04ixiv75Sl3WXYhMAPnWnBiWKMoQY1xdD5UahIJ3GdrAFcIkp5qzD51VkbDEpdW6Sd3ZIs7jJ3t8ZL3g==
+  dependencies:
+    style-value-types "^3.1.4"
+
 get-own-enumerable-property-symbols@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-2.0.1.tgz#5c4ad87f2834c4b9b4e84549dc1e0650fb38c24b"
@@ -458,6 +465,11 @@ good-listener@^1.2.2:
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+
+hey-listen@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
+  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hyperform@^0.9.9:
   version "0.9.22"
@@ -588,6 +600,13 @@ stringify-object@3.2.2:
     get-own-enumerable-property-symbols "^2.0.1"
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
+
+style-value-types@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.4.tgz#8c0959d26405eb0cbad40097b496220d41c22169"
+  integrity sha512-jHxRZWQpx6imY+QIveHTZwGOJWJqX3Cmt6Yk1zCGeQjk4noEsX+lfvFJUmRPpZL3VTrfGrHtjVWTcvcHx/OFhQ==
+  dependencies:
+    hey-listen "^1.0.8"
 
 styled-components@^4.1.3:
   version "4.1.3"
