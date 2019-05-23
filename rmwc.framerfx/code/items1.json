@@ -1,0 +1,7 @@
+[
+  { "title": "Apple", "graphic": "favorite" },
+  { "title": "Banana", "graphic": "alarm" },
+  { "title": "Banana", "graphic": "alarm_add" },
+  { "title": "Banana", "graphic": "alarm_off" },
+  { "title": "Banana", "graphic": "alarm_on" }
+]

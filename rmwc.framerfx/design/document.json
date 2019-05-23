@@ -8295,8 +8295,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.59756097560975607,
-            "centerAnchorY" : 0.40039447731755423,
+            "centerAnchorX" : 0.4847560975609756,
+            "centerAnchorY" : 0.42209072978303747,
             "children" : [
 
             ],
@@ -8310,7 +8310,8 @@
                   "value" : "JALWHHpD2"
                 }
               ],
-              "collapsible" : true
+              "collapsible" : false,
+              "itemsJsonUrl" : "design\/assets\/items2.json"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -8337,7 +8338,7 @@
             "id" : "dAH2Jqdw9",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : null,
+            "left" : 59,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -8351,9 +8352,9 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 32,
+            "right" : null,
             "rotation" : 0,
-            "top" : 103,
+            "top" : 114,
             "visible" : true,
             "width" : 200,
             "widthType" : 0

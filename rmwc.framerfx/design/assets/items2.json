@@ -1,0 +1,7 @@
+[
+  { "title": "Dog", "graphic": "face" },
+  { "title": "Fish", "graphic": "info" },
+  { "title": "Cat", "graphic": "history" },
+  { "title": "Cat", "graphic": "alarm_off" },
+  { "title": "Cat", "graphic": "alarm_on" }
+]
