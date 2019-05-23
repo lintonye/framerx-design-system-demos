@@ -20,6 +20,7 @@
 		"@rmwc/card": "^5.1.8",
 		"@rmwc/dialog": "^5.1.8",
 		"@rmwc/icon": "^5.1.8",
+		"@rmwc/list": "^5.5.2",
 		"@rmwc/tabs": "^5.1.4",
 		"@rmwc/theme": "^5.1.4",
 		"@rmwc/typography": "^5.1.8",

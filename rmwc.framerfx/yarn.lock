@@ -45,7 +45,6 @@
 "@framer/lintonye.learnreactdesign-ds@^1.7.0":
   version "1.7.0"
   resolved "https://registry.framer.com/@framer/lintonye.learnreactdesign-ds/-/@framer/lintonye.learnreactdesign-ds-1.7.0.tgz#4cd35fa8b031c703de3ba8303e2b2078cc14b831"
-  integrity sha512-QKPrxGFXtPTR1hO+RxNjXvfy7/D/1bQXAzhhY/dQtapEn07ayy87LzUZEOVnPxpiFxyE7XYU6LG5dkAA33cuWQ==
   dependencies:
     prism-react-renderer "^0.1.5"
     react-clipboard.js "^2.0.3"
@@ -67,9 +66,21 @@
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.41.0.tgz#315b45b32e1aeebee8a4cf555b8ad52076d09ddd"
 
+"@material/animation@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-1.0.0.tgz#dfd8575c8b031203917dc838ac0e3c0fe0f6709b"
+  dependencies:
+    tslib "^1.9.3"
+
 "@material/base@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/base/-/base-0.41.0.tgz#badadce711b4c25b1eb889a5e7581e32cd07c421"
+
+"@material/base@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-1.0.0.tgz#e4ef0b22c54aa887af94f5988fb1c0cb3245beba"
+  dependencies:
+    tslib "^1.9.3"
 
 "@material/button@^0.44.0":
   version "0.44.0"
@@ -113,6 +124,12 @@
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.41.0.tgz#6756865f97bad4c91ee75e69d769d7cdc25398ae"
 
+"@material/dom@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-1.1.0.tgz#3bd3d1a3415b4181118fecb182d93beda56a6f8c"
+  dependencies:
+    tslib "^1.9.3"
+
 "@material/elevation@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.44.0.tgz#ca16a67188ce9810dc2fa3d7a39073e72df4b754"
@@ -144,6 +161,20 @@
     "@material/ripple" "^0.44.1"
     "@material/theme" "^0.43.0"
 
+"@material/list@^2.0.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@material/list/-/list-2.1.1.tgz#fac8fc886d72c33ffb0f91abbc2483570cda4674"
+  dependencies:
+    "@material/base" "^1.0.0"
+    "@material/dom" "^1.1.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/ripple" "^2.1.1"
+    "@material/rtl" "^0.42.0"
+    "@material/shape" "^1.1.1"
+    "@material/theme" "^1.1.0"
+    "@material/typography" "^1.0.0"
+    tslib "^1.9.3"
+
 "@material/ripple@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.44.0.tgz#98920ff8ec4bf5714c97df3d190f02f8a5b476cc"
@@ -162,6 +193,17 @@
     "@material/feature-targeting" "^0.44.1"
     "@material/theme" "^0.43.0"
 
+"@material/ripple@^2.0.0", "@material/ripple@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-2.1.1.tgz#850e44bafe9db962f400c7e067eb28c1cb11010b"
+  dependencies:
+    "@material/animation" "^1.0.0"
+    "@material/base" "^1.0.0"
+    "@material/dom" "^1.1.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/theme" "^1.1.0"
+    tslib "^1.9.3"
+
 "@material/rtl@^0.42.0":
   version "0.42.0"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.42.0.tgz#1836e78186c2d8b996f6fbf97adab203535335bc"
@@ -173,6 +215,12 @@
 "@material/shape@^0.44.1":
   version "0.44.1"
   resolved "https://registry.yarnpkg.com/@material/shape/-/shape-0.44.1.tgz#ff4d5d42b07c5781306677bffee43234b756ea8e"
+  dependencies:
+    "@material/feature-targeting" "^0.44.1"
+
+"@material/shape@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@material/shape/-/shape-1.1.1.tgz#7a5368694bc3555e69ea547950904b46fa1024bf"
   dependencies:
     "@material/feature-targeting" "^0.44.1"
 
@@ -216,6 +264,12 @@
   version "0.43.0"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.43.0.tgz#6d9fa113c82e841817882172c152d60d2d203ca6"
 
+"@material/theme@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-1.1.0.tgz#9c95dd804168c23c30589fcf09ecc5af5b3d1adc"
+  dependencies:
+    "@material/feature-targeting" "^0.44.1"
+
 "@material/typography@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.44.0.tgz#cf61dce2ee89bfa084d86e1b0f270a585bf9dfaf"
@@ -223,6 +277,12 @@
 "@material/typography@^0.44.1":
   version "0.44.1"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.44.1.tgz#a94f01172f9122180bc2ce0aa55658183a35590d"
+  dependencies:
+    "@material/feature-targeting" "^0.44.1"
+
+"@material/typography@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-1.0.0.tgz#327ecfcac5ee3af8a3a102f3f125a761202f4189"
   dependencies:
     "@material/feature-targeting" "^0.44.1"
 
@@ -243,6 +303,16 @@
     "@rmwc/types" "^5.1.8"
     classnames "^2.2.5"
     focus-trap "^4.0.2"
+    hyperform "^0.9.9"
+    mutation-observer "^1.0.3"
+
+"@rmwc/base@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-5.5.2.tgz#995e40bbda7c1e53e32cde3f89de1790849f8ba1"
+  dependencies:
+    "@rmwc/types" "^5.5.2"
+    classnames "^2.2.6"
+    focus-trap "^5.0.0"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
 
@@ -307,6 +377,25 @@
     "@rmwc/base" "^5.1.8"
     "@rmwc/provider" "^5.1.8"
 
+"@rmwc/icon@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-5.5.2.tgz#54b06a7c8378a45fba3b2a2325b3451daae315c3"
+  dependencies:
+    "@rmwc/base" "^5.5.2"
+    "@rmwc/provider" "^5.5.2"
+    "@rmwc/types" "^5.5.2"
+
+"@rmwc/list@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-5.5.2.tgz#742d205f8fd69141397bab4b9dd0986a457e4d5b"
+  dependencies:
+    "@material/list" "^2.0.0"
+    "@rmwc/base" "^5.5.2"
+    "@rmwc/icon" "^5.5.2"
+    "@rmwc/provider" "^5.5.2"
+    "@rmwc/ripple" "^5.5.2"
+    "@rmwc/types" "^5.5.2"
+
 "@rmwc/provider@^5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-5.1.4.tgz#5034c818817d5a8707d62b17e9c72a10d491ad9c"
@@ -318,6 +407,13 @@
   resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-5.1.8.tgz#076e21085175e7ff0300fd3e455fed025782e7df"
   dependencies:
     "@rmwc/base" "^5.1.8"
+
+"@rmwc/provider@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-5.5.2.tgz#f9a6ae861fb8ebcbec20611f77f62365387f56ad"
+  dependencies:
+    "@rmwc/base" "^5.5.2"
+    "@rmwc/types" "^5.5.2"
 
 "@rmwc/ripple@^5.1.4":
   version "5.1.4"
@@ -332,6 +428,15 @@
   dependencies:
     "@material/ripple" "^0.44.0"
     "@rmwc/base" "^5.1.8"
+
+"@rmwc/ripple@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-5.5.2.tgz#d978fb56ac847fdd3a65b4f8e67b318db27cea78"
+  dependencies:
+    "@material/ripple" "^2.0.0"
+    "@rmwc/base" "^5.5.2"
+    "@rmwc/provider" "^5.5.2"
+    "@rmwc/types" "^5.5.2"
 
 "@rmwc/tabs@^5.1.4":
   version "5.1.4"
@@ -358,6 +463,10 @@
 "@rmwc/types@^5.1.8":
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-5.1.8.tgz#f559c793054a9ee6168850a24d075b5fb18715a9"
+
+"@rmwc/types@^5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-5.5.2.tgz#dbcf65b2ce91dcb2bb54ad51954d2d9c060fbea6"
 
 "@rmwc/typography@^5.1.8":
   version "5.1.8"
@@ -394,7 +503,7 @@ camelize@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
@@ -445,12 +554,12 @@ focus-trap@^4.0.2:
     tabbable "^3.1.2"
     xtend "^4.0.1"
 
-"framer@^0.10 || ^1":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.6.tgz#c9d3f4e368f2e73777e5c12824305df327e3043b"
-  integrity sha512-b7R8JS04ixiv75Sl3WXYhMAPnWnBiWKMoQY1xdD5UahIJ3GdrAFcIkp5qzD51VkbDEpdW6Sd3ZIs7jJ3t8ZL3g==
+focus-trap@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-5.0.1.tgz#285f9df2cd9f5ef82dd1abb5d8a70e66cd4f99e3"
   dependencies:
-    style-value-types "^3.1.4"
+    tabbable "^4.0.0"
+    xtend "^4.0.1"
 
 get-own-enumerable-property-symbols@^2.0.1:
   version "2.0.1"
@@ -465,11 +574,6 @@ good-listener@^1.2.2:
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-
-hey-listen@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
-  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hyperform@^0.9.9:
   version "0.9.22"
@@ -601,13 +705,6 @@ stringify-object@3.2.2:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-style-value-types@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.4.tgz#8c0959d26405eb0cbad40097b496220d41c22169"
-  integrity sha512-jHxRZWQpx6imY+QIveHTZwGOJWJqX3Cmt6Yk1zCGeQjk4noEsX+lfvFJUmRPpZL3VTrfGrHtjVWTcvcHx/OFhQ==
-  dependencies:
-    hey-listen "^1.0.8"
-
 styled-components@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.1.3.tgz#4472447208e618b57e84deaaeb6acd34a5e0fe9b"
@@ -649,6 +746,10 @@ tabbable@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-3.1.2.tgz#f2d16cccd01f400e38635c7181adfe0ad965a4a2"
 
+tabbable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-4.0.0.tgz#5bff1d1135df1482cf0f0206434f15eadbeb9261"
+
 tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
@@ -660,6 +761,10 @@ tinycolor2@^1.4.1:
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
+
+tslib@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
 xtend@^4.0.1:
   version "4.0.1"
