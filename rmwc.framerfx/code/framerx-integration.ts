@@ -1,41 +1,50 @@
-import { PropertyControls, ControlType } from "framer";
-import theme from "./theme";
-import { iconNames, getIconElement } from "./icons";
+import { PropertyControls, ControlType } from "framer"
+import theme from "./theme"
+import { iconNames, getIconElement } from "./icons"
 
-export const iconPropertyControls = (): PropertyControls => ({
-  icon: {
+export const iconPropertyControls = (
+  iconPropName = "icon",
+  title = iconPropName
+): PropertyControls => ({
+  [iconPropName]: {
     type: ControlType.Enum,
-    title: "Icon",
+    title,
     options: ["< none >", "< Material >", ...iconNames]
   },
-  builtInIcon: {
+  [`builtIn${iconPropName}`]: {
     type: ControlType.String,
-    title: "Icon name",
-    hidden: ({ icon }) => icon === "< none >" || iconNames.indexOf(icon) >= 0
+    title: `${title} name`,
+    hidden: props =>
+      props[iconPropName] === "< none >" ||
+      iconNames.indexOf(props[iconPropName]) >= 0
   }
-});
+})
 
-export const processIconProps = props => {
-  const { icon: oldIcon, builtInIcon, ...rest } = props;
+export const processIconProps = (props, iconPropName = "icon") => {
+  const oldIcon = props[iconPropName]
+  const builtInIconKey = `builtIn${iconPropName}`
+  const builtInIcon = props[builtInIconKey]
+  delete props[iconPropName]
+  delete props[builtInIconKey]
   if (oldIcon === "< none >") {
-    return rest;
+    return props
   } else {
-    const icon = getIconElement(oldIcon) || builtInIcon;
-    return { icon, ...rest };
+    const icon = getIconElement(oldIcon) || builtInIcon
+    return { ...props, [iconPropName]: icon }
   }
-};
+}
 
 function getOptions(compName) {
-  const key = compName + "Themes";
-  const value = theme[key];
+  const key = compName + "Themes"
+  const value = theme[key]
   if (Array.isArray(value)) {
-    return { options: value };
+    return { options: value }
   } else {
-    const optionTitles = Object.keys(value);
+    const optionTitles = Object.keys(value)
     return {
       optionTitles,
       options: optionTitles.map(k => value[k].join(" "))
-    };
+    }
   }
 }
 
@@ -46,8 +55,8 @@ export const themePropertyControls = (type): PropertyControls => {
       title: "Theme",
       ...getOptions(type)
     }
-  };
-};
+  }
+}
 
 export const spacingPropertyControls = (): PropertyControls => ({
   p: {
@@ -66,7 +75,7 @@ export const spacingPropertyControls = (): PropertyControls => ({
     valueKeys: ["mt", "ml", "mr", "mb"],
     valueLabels: ["T", "L", "R", "B"]
   }
-});
+})
 
 export function processSpacingProps(props) {
   const {
@@ -83,21 +92,21 @@ export function processSpacingProps(props) {
     mr,
     mb,
     ...rest
-  } = props;
-  const v = (t, r, b, l) => [t, r, b, l].map(s => `${s || 0}rem`).join(" ");
+  } = props
+  const v = (t, r, b, l) => [t, r, b, l].map(s => `${s || 0}rem`).join(" ")
   const padding =
     typeof isPaddingPerSide === "undefined"
       ? undefined
       : isPaddingPerSide
       ? v(pt, pr, pb, pl)
-      : v(p, p, p, p);
+      : v(p, p, p, p)
   const margin =
     typeof isMarginPerSide === "undefined"
       ? undefined
       : isMarginPerSide
       ? v(mt, mr, mb, ml)
-      : v(m, m, m, m);
-  const style = { padding, margin };
+      : v(m, m, m, m)
+  const style = { padding, margin }
 
-  return { style, ...rest };
+  return { style, ...rest }
 }
