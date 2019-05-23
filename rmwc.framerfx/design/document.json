@@ -7997,6 +7997,7 @@
             "codeComponentProps" : {
               "builtInmetaIcon" : "chevron_right",
               "graphic" : "Icon_star",
+              "isSimple" : true,
               "metaIcon" : "< Material >",
               "text" : "list item"
             },
@@ -8058,6 +8059,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/ListItem.tsx_ListItem",
             "codeComponentProps" : {
+              "isSimple" : true,
               "text" : "list item 1"
             },
             "codeOverrideEnabled" : false,
@@ -8110,14 +8112,15 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.47653429602888087,
-            "centerAnchorY" : 0.36363636363636365,
+            "centerAnchorX" : 0.49819494584837543,
+            "centerAnchorY" : 0.4208754208754209,
             "children" : [
 
             ],
             "clip" : true,
             "codeComponentIdentifier" : ".\/ListItem.tsx_ListItem",
             "codeComponentProps" : {
+              "isSimple" : false,
               "text" : "item 2"
             },
             "codeOverrideEnabled" : false,
@@ -8140,12 +8143,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 84,
             "heightType" : 0,
             "id" : "IY0hVFoOu",
             "intrinsicHeight" : 50,
             "intrinsicWidth" : null,
-            "left" : 32,
+            "left" : 25,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -8159,11 +8162,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 45,
+            "right" : 26,
             "rotation" : 0,
             "top" : 83,
             "visible" : true,
-            "width" : 200,
+            "width" : 226,
             "widthType" : 0
           },
           {
@@ -8178,6 +8181,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/ListItem.tsx_ListItem",
             "codeComponentProps" : {
+              "isSimple" : true,
               "text" : "list item 3"
             },
             "codeOverrideEnabled" : false,
@@ -8277,7 +8281,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : -1782,
+        "top" : -1801,
         "visible" : true,
         "width" : 277,
         "widthType" : 0
@@ -8296,7 +8300,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.24063116370808679,
+            "centerAnchorY" : 0.30177514792899407,
             "children" : [
 
             ],
@@ -8306,8 +8310,8 @@
               "children" : [
 
               ],
-              "collapsible" : false,
-              "itemsJsonUrl" : "design\/assets\/items2.json"
+              "collapsible" : true,
+              "itemsJsonUrl" : "design\/assets\/items1.json"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -8350,7 +8354,7 @@
             "radiusTopRight" : 0,
             "right" : 64,
             "rotation" : 0,
-            "top" : 22,
+            "top" : 53,
             "visible" : true,
             "width" : 200,
             "widthType" : 0
@@ -8358,9 +8362,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 17,
-            "centerAnchorX" : 0.46036585365853661,
-            "centerAnchorY" : 0.76923076923076927,
+            "bottom" : 43,
+            "centerAnchorX" : 0.5152439024390244,
+            "centerAnchorY" : 0.71794871794871795,
             "children" : [
 
             ],
@@ -8374,7 +8378,8 @@
                   "value" : "JALWHHpD2"
                 }
               ],
-              "collapsible" : true
+              "collapsible" : false,
+              "itemsJsonUrl" : "design\/assets\/items2.json"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -8401,7 +8406,7 @@
             "id" : "AcBWfD59k",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 51,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -8415,7 +8420,7 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 59,
             "rotation" : 0,
             "top" : null,
             "visible" : true,

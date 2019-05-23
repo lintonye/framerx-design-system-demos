@@ -17,7 +17,8 @@ async function readItemsFromJson(jsonUrl) {
 }
 
 export function List({ children, collapsible, itemsJsonUrl, ...rest }) {
-  const [listItems, setListItems] = useState(cloneFrameless(children))
+  const clonedChildren = cloneFrameless(children)
+  const [listItems, setListItems] = useState(clonedChildren)
   const [firstItem, ...restItems] = listItems
 
   const ListComp = collapsible ? CollapsibleList : _List
