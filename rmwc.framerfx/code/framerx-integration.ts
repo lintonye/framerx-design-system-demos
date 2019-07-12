@@ -20,17 +20,24 @@ export const iconPropertyControls = (
   }
 })
 
+function omit(o: Object, properties: string[]) {
+  let result = {}
+  Object.keys(o).forEach(key => {
+    if (properties.indexOf(key) < 0) result[key] = o[key]
+  })
+  return result
+}
+
 export const processIconProps = (props, iconPropName = "icon") => {
   const oldIcon = props[iconPropName]
   const builtInIconKey = `builtIn${iconPropName}`
   const builtInIcon = props[builtInIconKey]
-  delete props[iconPropName]
-  delete props[builtInIconKey]
+  const rest = omit(props, [iconPropName, builtInIconKey])
   if (oldIcon === "< none >") {
-    return props
+    return rest
   } else {
     const icon = getIconElement(oldIcon) || builtInIcon
-    return { ...props, [iconPropName]: icon }
+    return { ...rest, [iconPropName]: icon }
   }
 }
 
